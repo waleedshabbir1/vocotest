@@ -7,7 +7,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 
 
-mv:FillingStation
+mv3:FillingStation
 	a rdfs:Class , owl:Class ;
 	rdfs:comment "Facility for combustion motor vehicles or electric motor vehicle." ;
 	rdfs:label "filling station"@en, "Abfullstation"@de .
