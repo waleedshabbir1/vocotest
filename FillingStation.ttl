@@ -29,7 +29,7 @@ mv:ChargingStation
 mv:ChargingStationName
 	a rdf:Property , owl:DatatypeProperty ;
 	rdfs:comment "Indicates the name of the charging station" ;
-	rdfs:label "charging station name"@en , "Ladestationnnummer"@de ;
+	rdfs:label "charging station name"@en , "Ladestationnnummer"@de, "tester"@ii ;
 	rdfs:domain mv:ChargingStation ;
 	rdfs:range rdfs:Literal .
 	
