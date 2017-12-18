@@ -10,7 +10,7 @@
 mv:FillingStation
 	a rdfs:Class , owl:Class ;
 	rdfs:comment "Facility for combustion motor vehicles or electric motor vehicle." ;
-	rdfs:label "filling station"@en, "Abfullstation"@de, "khkjh"@es.
+	rdfs:label "filling station"@en, "Abfullstation"@de.
 	
 mv:FuelStation
 	rdfs:subClassOf mv:FillingStation ;
@@ -520,6 +520,3 @@ mv:ChargingStationP
 	mv:hasPrice "Paid charging" ;
 	mv:offersPlugTypes "Plug type 2" ;
 	mv:openingHours "Open 24/24" .
-
-
-
