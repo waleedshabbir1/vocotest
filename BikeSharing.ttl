@@ -42,3 +42,8 @@ mv:numberOfSpacesAvailable
   rdfs:comment "Indicates the number of spaces available at the docking station." ;
   rdfs:domain mv:BicycleDockingStation ;
   rdfs:range rdfs:Literal .
+
+
+#indviduals 
+mv:testIndividual
+a  mv:dockingStationNumber .
