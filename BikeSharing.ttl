@@ -49,4 +49,7 @@ mv:testIndividual
 a  mv:dockingStationNumber .
 
 mv:instanceTest
+a mv:BicycleDockingStation . 
+
+mv:instanceTest222
 a mv:BicycleDockingStation .
