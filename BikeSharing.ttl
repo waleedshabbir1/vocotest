@@ -47,3 +47,6 @@ mv:numberOfSpacesAvailable
 #indviduals 
 mv:testIndividual
 a  mv:dockingStationNumber .
+
+mv:instanceTest
+a mv:BicycleDockingStation .
