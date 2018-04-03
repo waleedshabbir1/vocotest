@@ -9,7 +9,7 @@
 mv:BicycleDockingStation
   a rdfs:Class , owl:Class ;
   rdfs:comment "A docking station of a bicycle sharing system for picking up and returning bicycles." ;
-  rdfs:label "bicycle docking station"@en , "Fahrradstation"@de , "ggg"@ff , "ff"@ff .
+  rdfs:label "bicycle docking station"@en , "Fahrradstation"@de .
   
 
  
@@ -42,17 +42,3 @@ mv:numberOfSpacesAvailable
   rdfs:comment "Indicates the number of spaces available at the docking station." ;
   rdfs:domain mv:BicycleDockingStation ;
   rdfs:range rdfs:Literal .
-
-
-#indviduals 
-mv:testIndividual
-a  mv:dockingStationNumber .
-
-mv:instanceTest
-a mv:BicycleDockingStation . 
-
-mv:instanceTest222
-a mv:BicycleDockingStation .
-
-mv:instanceTddddddd
-a mv:BicycleDockingStation .

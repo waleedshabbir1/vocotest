@@ -1,0 +1,115 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+
+@prefix blt: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+
+@prefix dbc: <http://lod.dbc.dk/schemas/dbc/> .
+
+@prefix dbcAgent: <http://lod.dbc.dk/id/agent/> .
+
+@prefix dbcBirth: <http://lod.dbc.dk/id/870979/birth/> .
+
+@prefix dbcResource: <http://lod.dbc.dk/id/870970/resource/> .
+
+@prefix dbcPeople: <http://lod.dbc.dk/id/870979/people/> .
+
+@prefix dbcPlace: <http://lod.dbc.dk/id/place/> .
+
+@prefix dbcPublicationEvent: <http://lod.dbc.dk/id/publicationevent/> .
+
+@prefix dct: <http://purl.org/dc/terms/> .
+
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+
+@prefix foaf: <http://xmlns.com/foaf/0.1> .
+
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+
+@prefix lexvo: <http://lexvo.org/id/iso639-3/> .
+
+@prefix marcCountryCode: <http://lod.dbc.dk/id/countrycode/> .
+
+@prefix marcLangCode: <http://lod.dbc.dk/id/languagecode/> .
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+@prefix rda: <http://RDVocab.info/ElementsGr2/> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ 
+
+dbcResource:r22455842 a dct:BibliographicResource .
+
+dbcResource:r22455842 a bibo:Book .
+
+dbcResource:r22455842 dct:title "Ubegrænset kraft" .
+
+dbcResource:r22455842 dbc:originalTitle "Unlimited power" .
+
+dbcResource:r22455842 dct:creator dbcPeople:pA2067402x .
+
+dbcResource:r22455842 bibo:isbn10 "87-21-00954-6" .
+
+dbcResource:r22455842 bibo:isbn13 "9788721009540" .
+
+dbcResource:r22455842 dct:language lexvo:dan .
+
+marcLangCode:dan foaf:focus lexvo:dan .
+
+dbcResource:r22455842 dct:subject <http://lod.dbc.dk/id/dk5/15_2> .
+
+<http://lod.dbc.dk/id/dk5/15_2> skos:notation "15.2" .
+
+<http://lod.dbc.dk/id/dk5/15_2> rdfs:label "Praktisk etik i alm." .
+
+<http://lod.dbc.dk/id/dk5/15_2> a dbc:TopicDK5 .
+
+dbcResource:r22455842 blt:publication dbcPublicationEvent:r22455842ValbyBorgen1999 .
+
+dbcPublicationEvent:r22455842ValbyBorgen1999 rdfs:label "Valby Borgen 1999" .
+
+dbcPublicationEvent:r22455842ValbyBorgen1999 event:agent dbcAgent:Borgen .
+
+dbcAgent:Borgen rdfs:label "Borgen" .
+
+dbcAgent:Borgen a foaf:Agent .
+
+dbcAgent:Borgen a dct:Agent .
+
+dbcPublicationEvent:r22455842ValbyBorgen1999 event:time "1999"^^xsd:gYear .
+
+dbcPublicationEvent:r22455842ValbyBorgen1999 event:place <http://sws.geonames.org/2623032> .
+
+marcCountryCode:dk foaf:focus <http://sws.geonames.org/2623032> .
+
+dbcPublicationEvent:r22455842ValbyBorgen1999 event:place dbcPlace:Valby .
+
+dbcPlace:Valby rdfs:label "Valby" .
+
+ 
+
+dbcPlace:Valby a geo:SpatialThing .
+
+dbcPeople:pA2067402x a foaf:Person .
+
+dbcPeople:pA2067402x a foaf:Agent .
+
+dbcPeople:pA2067402x a dct:Agent .
+
+dbcPeople:pA2067402x foaf:givenName "Anthony" .
+
+dbcPeople:pA2067402x foaf:familyName "Robbins" .
+
+dbcPeople:pA2067402x foaf:name "Anthony Robbins" .
+
+dbcPeople:pA2067402x rdfs:label "Robbins, Anthony" .
+
+dbcPeople:pA2067402x skos:prefLabel "Robbins, Anthony" .
