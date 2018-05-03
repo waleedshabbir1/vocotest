@@ -1,0 +1,197 @@
+@prefix : <http://vivoweb.org/ontology/core/proposals#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hr: <http://vivo.cornell.edu/ns/hr/0.9/hr.owl#> .
+@prefix ns: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix afn: <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix aka: <http://vivoweb.org/ontology/aka#> .
+@prefix app: <http://eagle-i.org/ont/app/1.0/> .
+@prefix c4o: <http://purl.org/spar/c4o/> .
+@prefix cce: <http://vivoweb.org/ontology/cornell-cooperative-extension#> .
+@prefix far: <http://vitro.mannlib.cornell.edu/ns/reporting#> .
+@prefix geo: <http://aims.fao.org/aos/geopolitical.owl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pvs: <http://vivoweb.org/ontology/provenance-support#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sce: <http://vivoweb.org/ontology/SchoolOfContinuingEducation#> .
+@prefix wos: <http://vivo.mannlib.cornell.edu/ns/ThomsonWOS/0.1#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix acti: <http://vivoweb.org/ontology/activity-insight#> .
+@prefix aktp: <http://www.aktors.org/ontology/portal#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mann: <http://vivo.cornell.edu/ns/mannadditions/0.1#> .
+@prefix owl2: <http://www.w3.org/2006/12/owl2-xml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vivo: <http://vivoweb.org/ontology/core#> .
+@prefix wcmc: <http://weill.cornell.edu/vivo/ontology/wcmc#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix local: <http://vivo.cornell.edu/ontology/local#> .
+@prefix ocrer: <http://purl.org/net/OCRe/research.owl#> .
+@prefix ospcu: <http://vivoweb.org/ontology/cu-vivo-osp#> .
+@prefix scirr: <http://vivoweb.org/ontology/scientific-research-resource#> .
+@prefix skos2: <http://www.w3.org/2008/05/skos#> .
+@prefix stars: <http://vitro.mannlib.cornell.edu/ns/cornell/stars/classes#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix vitro: <http://vitro.mannlib.cornell.edu/ns/vitro/0.7#> .
+@prefix vivoc: <http://vivo.library.cornell.edu/ns/0.1#> .
+@prefix config: <http://vitro.mannlib.cornell.edu/ns/vitro/ApplicationConfiguration#> .
+@prefix ocresd: <http://purl.org/net/OCRe/study_design.owl#> .
+@prefix pubmed: <http://vitro.mannlib.cornell.edu/ns/pubmed#> .
+@prefix scires: <http://vivoweb.org/ontology/scientific-research#> .
+@prefix socsci: <http://vivo.library.cornell.edu/ns/vivo/socsci/0.1#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix display: <http://vitro.mannlib.cornell.edu/ontologies/display/1.1#> .
+@prefix vivo-de: <http://vivoweb.org/ontology/core/proposals#> .
+@prefix statistics: <http://purl.org/net/OCRe/statistics.owl#> .
+@prefix vitro-public: <http://vitro.mannlib.cornell.edu/ns/vitro/public#> .
+@prefix study_protocol: <http://purl.org/net/OCRe/study_protocol.owl#> .
+@base <http://vivoweb.org/ontology/core/proposals> .
+
+<http://vivoweb.org/ontology/core/proposals> rdf:type owl:Ontology ;
+                                              vitro:ontologyPrefixAnnot "vivo-isf_candidates"^^xsd:string ;
+                                              rdfs:label "VIVO-ISF Proposals DE-Community"@de .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.obolibrary.org/obo/IAO_0000112
+obo:IAO_0000112 rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.obolibrary.org/obo/IAO_0000115
+obo:IAO_0000115 rdf:type owl:AnnotationProperty .
+
+
+###  http://vitro.mannlib.cornell.edu/ns/vitro/0.7#displayLimitAnnot
+vitro:displayLimitAnnot rdf:type owl:AnnotationProperty .
+
+
+###  http://vitro.mannlib.cornell.edu/ns/vitro/0.7#displayRankAnnot
+vitro:displayRankAnnot rdf:type owl:AnnotationProperty .
+
+
+###  http://vitro.mannlib.cornell.edu/ns/vitro/0.7#hiddenFromDisplayBelowRoleLevelAnnot
+vitro:hiddenFromDisplayBelowRoleLevelAnnot rdf:type owl:AnnotationProperty .
+
+
+###  http://vitro.mannlib.cornell.edu/ns/vitro/0.7#hiddenFromPublishBelowRoleLevelAnnot
+vitro:hiddenFromPublishBelowRoleLevelAnnot rdf:type owl:AnnotationProperty .
+
+
+###  http://vitro.mannlib.cornell.edu/ns/vitro/0.7#inClassGroup
+vitro:inClassGroup rdf:type owl:AnnotationProperty .
+
+
+###  http://vitro.mannlib.cornell.edu/ns/vitro/0.7#prohibitedFromUpdateBelowRoleLevelAnnot
+vitro:prohibitedFromUpdateBelowRoleLevelAnnot rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://vivoweb.org/ontology/core/proposals#Archive
+vivo-de:Archive rdf:type owl:Class ;
+                rdfs:subClassOf foaf:Organization ;
+                obo:IAO_0000112 """Bundesarchiv,
+      Landesarchiv, Stadtarchiv, Universitätsarchiv"""^^xsd:string ;
+                obo:IAO_0000115 """Ein
+      Archiv"""^^xsd:string ;
+                vitro:displayLimitAnnot "-1"^^xsd:int ;
+                vitro:displayRankAnnot "-1"^^xsd:int ;
+                vitro:hiddenFromDisplayBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                vitro:hiddenFromPublishBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                vitro:inClassGroup <http://vivoweb.org/ontology#vitroClassGrouporganizations> ;
+                vitro:prohibitedFromUpdateBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                rdfs:label "Archiv"@de-de ,
+                           "Archive"@en-us .
+
+
+###  http://vivoweb.org/ontology/core/proposals#BotanicalGarden
+vivo-de:BotanicalGarden rdf:type owl:Class ;
+                        rdfs:subClassOf foaf:Organization ;
+                        obo:IAO_0000115 """Sammlung zur Flora,
+      Museumsähnlich, Studiensammlung"""^^xsd:string ;
+                        vitro:displayLimitAnnot "-1"^^xsd:int ;
+                        vitro:displayRankAnnot "-1"^^xsd:int ;
+                        vitro:hiddenFromDisplayBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                        vitro:hiddenFromPublishBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                        vitro:inClassGroup <http://vivoweb.org/ontology#vitroClassGrouporganizations> ;
+                        vitro:prohibitedFromUpdateBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                        rdfs:label "Botanical Garden"@en-us ,
+                                   "Botanischer Garten"@de-de .
+
+
+###  http://vivoweb.org/ontology/core/proposals#ComputingCenter
+vivo-de:ComputingCenter rdf:type owl:Class ;
+                        rdfs:subClassOf foaf:Organization ;
+                        obo:IAO_0000112 "Hochschulrechenzentrum"^^xsd:string ;
+                        obo:IAO_0000115 """Institution zur
+      Verwaltung der IT-Infrastruktur"""^^xsd:string ;
+                        vitro:displayLimitAnnot "-1"^^xsd:int ;
+                        vitro:displayRankAnnot "-1"^^xsd:int ;
+                        vitro:hiddenFromDisplayBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                        vitro:hiddenFromPublishBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                        vitro:inClassGroup <http://vivoweb.org/ontology#vitroClassGrouporganizations> ;
+                        vitro:prohibitedFromUpdateBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                        rdfs:label "Computing Center"@en-us ,
+                                   "Rechenzentrum"@de-de .
+
+
+###  http://vivoweb.org/ontology/core/proposals#LanguageCenter
+vivo-de:LanguageCenter rdf:type owl:Class ;
+                       rdfs:subClassOf foaf:Organization ;
+                       obo:IAO_0000115 """Zentrum zur
+      Sprachausbildung mit Sprachlabor und Unterrichtsräumen"""^^xsd:string ;
+                       vitro:displayLimitAnnot "-1"^^xsd:int ;
+                       vitro:displayRankAnnot "-1"^^xsd:int ;
+                       vitro:hiddenFromDisplayBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                       vitro:hiddenFromPublishBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                       vitro:inClassGroup <http://vivoweb.org/ontology#vitroClassGrouporganizations> ;
+                       vitro:prohibitedFromUpdateBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                       rdfs:label "Language Center"@en-us ,
+                                  "Sprachenzentrum"@de-de .
+
+
+###  http://vivoweb.org/ontology/core/proposals#MediaCentre
+vivo-de:MediaCentre rdf:type owl:Class ;
+                    rdfs:subClassOf foaf:Organization ;
+                    obo:IAO_0000115 """Einrichtung an der
+      Medien erstellt und verwaltet werden, z.B. Ton- und Filmstudio"""^^xsd:string ;
+                    vitro:displayLimitAnnot "-1"^^xsd:int ;
+                    vitro:displayRankAnnot "-1"^^xsd:int ;
+                    vitro:hiddenFromDisplayBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                    vitro:hiddenFromPublishBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                    vitro:inClassGroup <http://vivoweb.org/ontology#vitroClassGrouporganizations> ;
+                    vitro:prohibitedFromUpdateBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                    rdfs:label "Media Center"@en-us ,
+                               "Medienzentrum"@de-de .
+
+
+###  http://vivoweb.org/ontology/core/proposals#SportsCenter
+vivo-de:SportsCenter rdf:type owl:Class ;
+                     rdfs:subClassOf foaf:Organization ;
+                     vitro:displayLimitAnnot "-1"^^xsd:int ;
+                     vitro:displayRankAnnot "-1"^^xsd:int ;
+                     vitro:hiddenFromDisplayBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                     vitro:hiddenFromPublishBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                     vitro:inClassGroup <http://vivoweb.org/ontology#vitroClassGrouporganizations> ;
+                     vitro:prohibitedFromUpdateBelowRoleLevelAnnot <http://vitro.mannlib.cornell.edu/ns/vitro/role#public> ;
+                     rdfs:label "Sportscenter"@en-us ,
+                                "Sportzentrum"@de-de .
+
+
+###  http://xmlns.com/foaf/0.1/Organization
+foaf:Organization rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
