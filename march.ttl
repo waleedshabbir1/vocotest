@@ -1,0 +1,61 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix dbo: <http://dbpedia.org/ontology#> .
+@prefix dbont: <http://dbpedia.org/ontology/> .
+@prefix dbprop: <http://dbpedia.org/property/> .
+@prefix dbr: <http://dbpedia.org/resource#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix deo: <http://purl.org/spar/deo/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix dul: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.geonames.org/ontology#> .
+@prefix lingg: <http://purl.org/linguistics/gold/> .
+@prefix muto: <http://purl.org/muto/core#> .
+@prefix nsprov: <http://www.w3.org/ns/prov#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rami: <https://w3id.org/i40/rami#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sto: <https://w3id.org/i40/sto#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix vocvr: <http://purl.org/voc/vrank#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+sto: a owl:Ontology ;
+    dc11:description "An ontology to describe industry standards related to Smart Manufacturing" ;
+    dc11:title "Standards Ontology"@en ;
+    dct:created "2017-01-25"^^xsd:date ;
+    dct:creator <http://data.semanticweb.org/person/steffen-lohmann>,
+        <http://sda.cs.uni-bonn.de/people/irlan-grangel-gonzalez>,
+        <https://www.linkedin.com/in/paul-baptista-601177b2> ;
+    dct:modified "2017-09-08"^^xsd:date ;
+    dct:publisher <http://de.dbpedia.org/resource/Fraunhofer-Gesellschaft> ;
+    dct:rights "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/3.0/)."@en ;
+    vann:preferredNamespacePrefix "sto" ;
+    vann:preferredNamespaceUri "https://w3id.org/i40/sto#" ;
+    doap:repository <https://github.com/i40-Tools/StandardsOntology> ;
+    owl:versionInfo "0.2" .
+
+
+    
+sto:DIN_SPEC_16592 a sto:Standard ;
+    rdfs:label "DIN SPEC 16592"@en ;
+    owl:differentFrom  sto:ASAM_ODS;
+    nsprov:wasDerivedFrom sto:IEC_62541,
+        sto:IEC_62714 .
+
+sto:IEC_20140_5 a sto:Standard ;
+    rdfs:label "IEC 20140"@en ;
+    sto:publisher sto:IEC .
+
+nsprov:wasDerivedFrom a owl:ObjectProperty, owl:FunctionalProperty .
+sto:IEC_62541 owl:differentFrom  sto:IEC_62714.
+         
+
+
