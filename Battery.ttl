@@ -5,7 +5,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 mv:ElectricVehicleBattery
-	a rdfs:Class , owl:Class ;
+	a rdfs:Class , owl:Class 
 	rdfs:comment "A battery used to power the propulsion of a battery electric vehicle." ;
 	rdfs:label "Electric Vehicle Battery"@en , "Traktionsbatterie"@de ;
 	rdfs:altlabel "Traction battery"@en , "Traktionsakku"@de ;
