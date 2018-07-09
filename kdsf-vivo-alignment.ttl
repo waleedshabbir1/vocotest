@@ -15,7 +15,7 @@
 @base <http://kerndatensatz-forschung.de/owl/Basis> .
 
 <http://kerndatensatz-forschung.de/owl/Basis> rdf:type owl:Ontology ;
-                                               owl:imports <http://kerndatensatz-forschung.de/owl/Meta> ;
+                                               owl:import <http://kerndatensatz-forschung.de/owl/Meta> ;
                                                owl:versionInfo "2017-01-04"^^xsd:string ;
                                                vitro:ontologyPrefixAnnot "kdsf" ;
                                                rdfs:label "KDSF-VIVO-Alignment"@de-de ;
