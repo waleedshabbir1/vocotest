@@ -6,7 +6,7 @@
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
          
-     
+      
 mv:FillingStation
 	a rdfs:Class , owl:Class ;
 	rdfs:comment "Facility for combustion motor vehicles or electric motor vehicle." ;
