@@ -1,12 +1,13 @@
-@prefix mv: <http://eccenca.com/mobivoc/> .
+@prefix mv: <http://eccenca.com/mobivoc/> .   
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-  
-mv:ElectricVehicleBattery
-	a rdfs:Class , owl:Class 
-	rdfs:comment "A battery used to power the propulsion of a battery electric vehicle." ;
-	rdfs:label "Electric Vehicle Battery"@en , "Traktionsbatterie"@de ;
-	rdfs:altlabel "Traction battery"@en , "Traktionsakku"@de ;
-	skos:hiddenLabel "EVB"@en,"Antriebsbatterie"@de .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+               
+       
+mv:FillingStation2
+	a rdfs:Class , owl:Class ;
+	rdfs:comment "Facility for combustion motor vehicles or electric motor vehicle." ;
+	rdfs:label "filling station"@en, "Abfullstation"@de .
