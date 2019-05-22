@@ -11,3 +11,9 @@ mv:FillingStation2
 	a rdfs:Class , owl:Class ;
 	rdfs:comment "Facility for combustion motor vehicles or electric motor vehicle." ;
 	rdfs:label "filling station"@en, "Abfullstation"@de .
+
+
+mv:FillingStation33333
+	a rdfs:Class , owl:Class ;
+	rdfs:comment "Facility dfsdfdsfdsffor combustion motor vehicles or electric motor vehicle." ;
+	rdfs:label "filling sdfdfsftation"@en, "Abfdsfdsdfullstation"@de .
