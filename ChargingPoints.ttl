@@ -11,7 +11,7 @@
 @prefix vcard:	 <http://www.w3.org/2001/vcard-rdf/3.0#> .
 @prefix geo: 	 <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix skos: 	 <http://www.w3.org/2004/02/skos/core#> .
-
+  
 <http://purl.org/net/mobivoc/> a owl:Ontology .
 
 # CLASSES
@@ -109,8 +109,7 @@ mv:ComboPlug
 mv:CHAdeMOPlug
 	a mv:PlugType ;
 	rdfs:label "CHAdeMO"@en ;
-	owl:sameAs <http://dbpedia.org/resource/CHAdeMO> ;
-	foaf:depiction <http://upload.wikimedia.org/wikipedia/commons/f/f3/VDE-AR-E_2623-2-2-plug.jpg> .
+	owl:sameAs <http://dbpedia.org/resource/CHAdeMO>  .
 	
 mv:EUDomesticPlug
 	a mv:PlugType ;
@@ -134,7 +133,6 @@ mv:Type2Plug
 	a mv:PlugType ;
 	rdfs:label "Type2 Plug"@en ;
 	skos:altLabel "EN 62196-2" ;
-	owl:sameAs "http://en.wikipedia.org/wiki/IEC_62196#Type_2:_VDE-AR-E_2623-2-2" ;
 	foaf:depiction <http://upload.wikimedia.org/wikipedia/commons/f/f3/VDE-AR-E_2623-2-2-plug.jpg> .
 
 mv:Type3Plug
