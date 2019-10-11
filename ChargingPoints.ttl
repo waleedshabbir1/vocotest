@@ -18,7 +18,7 @@
 
 mv:AccessInformation 
 	a rdfs:Class, owl:Class ;
-	rdfs:comment	"Access information of the charging." ;
+	rdfs:comment	"Access information of the charging point." ;
 	rdfs:label "Access Information"@en, "Zugagsinformation"@de .
 	
 mv:AccessType 
