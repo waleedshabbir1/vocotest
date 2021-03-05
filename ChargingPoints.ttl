@@ -5,7 +5,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix vCard:   <http://www.w3.org/2001/vcard-rdf/3.0#> .
-@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
 
 mv:Country
 	a rdfs:Class , owl:Class ;
