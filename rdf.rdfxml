@@ -4,12 +4,6 @@
 
   <rdf:Description rdf:about="http://lod.dbc.dk/id/870970/resource/r22455842">
 
-    <rdf:type rdf:resource="http://purl.org/dc/terms/BibliographicResource"/>
-
-  </rdf:Description>
-
-  <rdf:Description rdf:about="http://lod.dbc.dk/id/870970/resource/r22455842">
-
     <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
 
   </rdf:Description>
@@ -188,11 +182,6 @@
 
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://lod.dbc.dk/id/870979/people/pA2067402x">
-
-    <rdfs:label>Robbins, Anthony</rdfs:label>
-
-  </rdf:Description>
 
   <rdf:Description rdf:about="http://lod.dbc.dk/id/870979/people/pA2067402x">
 
